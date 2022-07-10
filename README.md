@@ -1,5 +1,5 @@
 # netzplanzeichner
-Es wird eine CSV-Datei im Format der Aufgabenstellung eingelesen und der fertige Netzplan in eine neue CSV oder PNG-Datei geschrieben. Wenn eine PNG-Datei als Ausgabedatei spezifiziert ist, wird eine Grafische Ausgabe des Netzplans erstellt. 
+Es wird eine CSV-Datei im Format der Dateien im Verzeichnis Test/inputs eingelesen und der fertige Netzplan in eine neue CSV oder PNG-Datei geschrieben. Wenn eine PNG-Datei als Ausgabedatei angegeben ist, wird eine Grafische Ausgabe des Netzplans erstellt. 
 
 
 Ausführung des Programms:
