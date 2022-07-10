@@ -1,0 +1,10 @@
+Nr.;Nachfolger;Bezeichnung;Dauer
+1;2,4;Zeitplanung;14
+2;3;Wärmetauscher installieren;2
+3;6;Zuleitungen verlegen;7
+4;5;Zeitplanung verfeinern;14
+5;7;Hausbewohner informieren;1
+6;7;Neue Zuleitungen provisorisch anschl.;2
+7;8;Strangverteilung erneuern;20
+8;9;Altes entsorgen;2
+9;-;Endabnahmen;1

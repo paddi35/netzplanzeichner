@@ -1,0 +1,22 @@
+Nr.;Vorgänger;Bezeichnung;Dauer
+1;0;Gebäudeplan erstellen/besorgen;1
+2;0;Aufgaben erfassen;3
+3;2;Software (Betriebssystem, Anwendungsprogramme) auswählen;5
+4;3;Rechnerkomponenten planen;2
+5;4;Peripherie (Bildschirm, Drucker, Eingabegeräte) planen;1
+6;1,4;Standorte der Geräte planen;1
+7;6;Verkabelungsplan erstellen;1
+8;7;Mauern durchbohren, Kabelkanäle installieren;5
+9;7;Kabel und Steckdosen bestellen;0
+10;8,9;Gebäudeverkabelung installieren;5
+11;6;Router, Switches bestellen;10
+12;5;Rechner und Peripherie bestellen;10
+13;12;Rechner zusammenbauen;5
+14;13;Software aufspielen;5
+15;14;Rechner lokal testen;3
+16;15;Rechner an jeweiligen Standorten aufstellen;1
+17;16, 11, 10;Netzwerk konfigurieren;4
+18;6;Handbuch für Endnutzer erstellen (enthält auch IP-Adressen der Rechner);5
+19;18;Anwender schulen;20
+20;17;Integrationstest;3
+21;20,19;Übergabe und Inbetriebnahme;1
