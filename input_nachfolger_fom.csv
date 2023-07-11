@@ -1,0 +1,11 @@
+Nr.;Nachfolger;Bezeichnung;Dauer
+A;B,C,D;A;2
+B;G;B;3
+C;E;C;5
+D;F,G;D;4
+E;I;E;4
+F;I;F;3
+G;H,I;G;9
+H;J;H;8
+I;J;I;16
+J;-;J;5
