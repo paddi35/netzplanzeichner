@@ -21,10 +21,6 @@ class Node(List_Node):
             print("Error: Value in field \"Dauer\" is no digit.")
             exit()
         
-        if not nr.isdigit():
-            print("Error: Value in field \"Nr.\" is no digit.")
-            exit()
-        
         self._nr = nr
         self._bezeichnung = bezeichnung
         self._dauer = int(dauer)
@@ -38,10 +34,6 @@ class Node(List_Node):
         if self._dauer < 0:
          print("Error: Invalid value in field \"Dauer\".")
          exit()
-        
-        if int(self._nr) < 0:
-            print("Error: Invalid value in field \"Nr.\".")
-            exit()
         
     def getFaz(self)->int:
         if self.hasPrevious() and self._faz==0:
