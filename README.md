@@ -10,6 +10,20 @@
 
 -> Ruft das `main.py` Skript aus und übergibt eine CSV-Datei mit "Nachfolgern" (analog Vorlesung) und übergibt dann den Dateipfad, wo der Netzplan gespeichert wird.
 
+## Knoteninformation
+
+![knoten_info](https://github.com/paddi35/netzplanzeichner/assets/79044236/143c913c-8e88-4ffc-8925-0d41c2cfdcef)
+
+- FAZ: frühster Anfangszeitpunkt (oben links)
+- FEZ: frühster Endzeitpunkt (oben rechts)
+- SAZ: spätester Anfangszeitpunkt (unten links)
+- SEZ: spätester Endzeitpunkt (unten rechts)
+- ID: oberen beiden Felder
+- Dauer: Dauer (unten linkes Feld)
+- GP:  gesamter Puffer (unten mittleres Feld)
+- FP: freier Puffer (unten rechtes Feld)
+
+
 ## Original
 Es wird eine CSV-Datei im Format der Dateien im Verzeichnis Test/inputs eingelesen und der fertige Netzplan in eine neue CSV oder PNG-Datei geschrieben. Wenn eine PNG-Datei als Ausgabedatei angegeben ist, wird eine Grafische Ausgabe des Netzplans erstellt. 
 
